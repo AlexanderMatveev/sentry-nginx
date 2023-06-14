@@ -10,9 +10,8 @@
 
 ## Example
 
-```go
-package main
+```sh
 
-// @todo
+#todo
 
 ```
