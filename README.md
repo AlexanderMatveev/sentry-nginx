@@ -3,7 +3,7 @@
 [![Workflow](https://github.com/AlexanderMatveev/sentry-nginx/actions/workflows/go.yml/badge.svg)](https://github.com/AlexanderMatveev/sentry-nginx/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/AlexanderMatveev/sentry-nginx)](https://goreportcard.com/report/github.com/AlexanderMatveev/sentry-nginx)
 
-Push Sentry events from nginx
+Push Sentry important events by following nginx log file.
 
 ## Usage
 
