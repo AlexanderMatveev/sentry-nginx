@@ -23,7 +23,7 @@ go run github.com/AlexanderMatveev/sentry-nginx --help
   -time-format string
     	Nginx log time format. (default "02/Jan/2006:15:04:05 -0700")
 
-  -config config-file
+  -config string
     	Nginx config contents instead of config-file.
   -debug
     	Debug Sentry
