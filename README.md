@@ -14,22 +14,24 @@ go run github.com/AlexanderMatveev/sentry-nginx --help
 ### Available options
 
 ```
-  -config config-file
-    	Nginx config contents instead of config-file.
-  -config-file string
-    	Nginx access log to follow. (default "/var/log/nginx/access.log")
-  -debug
-    	Debug Sentry.
   -dsn string
     	Sentry DSN. If not specified, get from SENTRY_DNS env (recommended).
-  -env string
-    	Environment to use in event.
+  -config-file string
+    	Nginx access log to follow. (default "/var/log/nginx/access.log")
   -file string
     	Nginx access log to follow. (default "/var/log/nginx/access.log")
+  -time-format string
+    	Nginx log time format. (default "02/Jan/2006:15:04:05 -0700")
+
+  -config config-file
+    	Nginx config contents instead of config-file.
+  -debug
+    	Debug Sentry
+  -env string
+    	Environment to use in event.
   -message string
     	Issue message. (default "500")
   -server-name string
     	Server name to use in event, default to current host name.
-  -time-format string
-    	Nginx log time format. (default "02/Jan/2006:15:04:05 -0700")
+ 
 ```
